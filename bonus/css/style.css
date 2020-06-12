@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  /* DEBUG:  */
+  /* border:1px solid black; */
+  padding:5px;
+  }
+  body{
+    height: 100vh;
+  }
+
+  #my-all-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  #my-box{
+    font-family: monospace;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 90px;
+    height: 150px;
+    transition: all 0.5s;
+    text-align: center;
+  }
+
+  #my-text{
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+  }
+
+  #my-box:hover{
+    transform: scale(1.1);
+  }

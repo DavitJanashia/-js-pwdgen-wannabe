@@ -12,4 +12,5 @@ colorePreferito = prompt('Inserisci il tuo colore preferito');
 
 // OUTPUT per l'utente
 var password = nome + cognome + colorePreferito + '19';
+document.getElementById('my-text-pwd').innerHTML = 'Your password:';
 document.getElementById('my-text').innerHTML = password;
