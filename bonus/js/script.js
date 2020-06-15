@@ -2,6 +2,10 @@
 var nome;
 nome = prompt('Inserisci il tuo nome');
 
+console.log (variable);
+alert (variable);
+variable = prompt();
+
 // chiedere il COGNOME
 var cognome;
 cognome = prompt('Inserisci il tuo cognome');
